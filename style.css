@@ -1,6 +1,44 @@
 body{
-    text-align: center;
+    /* background-image:url(Background.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto; */
+    align-items: center;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-h1{
-    color: red;
+
+/* .test{
+    padding: 20px;
+    background-color: #071e22;
+    color: white;
+    align-content: center;
+    text-align: center;
+    width: 60%;height: 20%;
+    margin: auto;
+    margin-bottom: 10px;
+} */
+/* .urli{
+   position: relative; 
+   display: inline-block;
+   left: 0;
+   margin: 2px;
+}
+.orli{
+    position: relative;
+    display: inline-block;
+} */
+a{
+    
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #071e22;
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    background-color: aliceblue;color: black;
 }
